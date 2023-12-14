@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@types/jest": "^29.5.10",
+    "@types/jest": "^29.5.11",
     "pkg-dir": "^8.0.0",
     "ts-jest": "^29.1.1"
   },

@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "CommonJS",
     "outDir": "out",
-    "sourceMap": true
+    "esModuleInterop": true,
+    "lib": ["es2020"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "ES5",
+    "types": ["node", "jest"],
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
   }
 }

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const filePath = "./tasks/cube_games.txt";
+const filePath = "./tasks/day2/cube_games.txt";
 let gameIds = [];
 let powerOfSets = 0;
 const availableCubs = {
